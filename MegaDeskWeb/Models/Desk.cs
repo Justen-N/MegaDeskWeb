@@ -11,6 +11,7 @@ namespace MegaDeskWeb.Models
 {
     public class Desk
     {
+        public int ID { get; set;}
         public decimal Width { get; set; }
         public decimal Depth { get; set; }
         public int NumDrawers { get; set; }
