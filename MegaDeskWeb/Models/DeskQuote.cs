@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace MegaDeskWeb
 {
     public class DeskQuote { 
-        public Desk NewDesk { get; set; }
+        public Models.Desk NewDesk { get; set; }
         public string Name { get; set; }
         public DateTime QuoteDate { get; set; }
         public Rush Rush { get; set; }
